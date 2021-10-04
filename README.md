@@ -11,7 +11,7 @@ up separate containers.
 ## Usage
 
 ```
-docker run -d -p 80:80 -p 443:443 --restart unless-stopped ghcr.io/jimcronqvist/tcp-proxy:latest
+docker run -d -p 80:80 -p 443:443 --restart unless-stopped ghcr.io/jimcronqvist/whoami:latest
 ```
 
 ## Build
